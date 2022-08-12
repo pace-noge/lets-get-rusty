@@ -23,6 +23,7 @@ fn main() {
     let user2 = build_user(String::from("user2@mail.com"), String::from("user2"));
     println!("{}", user2.username);
 
+    // using exisiting instance in struct
     let user3 = User {
         email: String::from("user3@mail.com"),
         username: String::from("user3"),
